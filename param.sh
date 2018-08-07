@@ -2,7 +2,9 @@
 echo value of parameter is $FromDate $ToDate
 days=$((($(date -u -d $ToDate +%s) - $(date -u -d $FromDate +%s)) / 86400))
 echo $days
-for var in days
+START=1
+END=days
+for i in {$START..$END}
 do
-   echo $var
+   echo "$i"
 done

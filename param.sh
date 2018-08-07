@@ -1,2 +1,2 @@
 #!/bin/bash
-echo value of test is $test
+echo value of parameter is $FromDate $ToDate

@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "welcome"
+echo value of test is $test

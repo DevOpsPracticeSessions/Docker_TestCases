@@ -5,4 +5,4 @@ echo $days
 for ((i=1;i<days;i++))
        do
            echo "Number $i"
-       done    
+       done
